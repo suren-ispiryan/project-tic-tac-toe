@@ -39,21 +39,21 @@ $(".little-Divs").click(function(){
 		}
  
 		else{
-			$(this).text("0");	
+			$(this).text("o");	
 			click++;
 			// Checking the winning Combinations 	
 			// Horizontal 0 
-			if ($(div0).text() == "0" && $(div1).text() == "0" && $(div2).text() == "0" ||
-				$(div3).text() == "0" && $(div4).text() == "0" && $(div5).text() == "0" ||
-				$(div6).text() == "0" && $(div7).text() == "0" && $(div8).text() == "0" ||
+			if ($(div0).text() == "o" && $(div1).text() == "o" && $(div2).text() == "o" ||
+				$(div3).text() == "o" && $(div4).text() == "o" && $(div5).text() == "o" ||
+				$(div6).text() == "o" && $(div7).text() == "o" && $(div8).text() == "o" ||
 			// Vertical x 
-				$(div0).text() == "0" && $(div3).text() == "0" && $(div6).text() == "0" ||
-				$(div1).text() == "0" && $(div4).text() == "0" && $(div7).text() == "0" ||
-				$(div2).text() == "0" && $(div5).text() == "0" && $(div8).text() == "0" ||
+				$(div0).text() == "o" && $(div3).text() == "o" && $(div6).text() == "o" ||
+				$(div1).text() == "o" && $(div4).text() == "o" && $(div7).text() == "o" ||
+				$(div2).text() == "o" && $(div5).text() == "o" && $(div8).text() == "o" ||
 			// Corner x 
-				$(div0).text() == "0" && $(div4).text() == "0" && $(div8).text() == "0" ||
-				$(div2).text() == "0" && $(div4).text() == "0" && $(div6).text() == "0") {
-				$(message).show().text("Congratulations, Player 0 Wins !!!");
+				$(div0).text() == "o" && $(div4).text() == "o" && $(div8).text() == "o" ||
+				$(div2).text() == "o" && $(div4).text() == "o" && $(div6).text() == "o") {
+				$(message).show().text("Congratulations, Player o Wins !!!");
 			}	
 		}
 
